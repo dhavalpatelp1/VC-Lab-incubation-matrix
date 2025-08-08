@@ -1,6 +1,6 @@
-# EpiLab — Incubation Matrix (Neon PWA)
+# VC Lab — Incubation Matrix (Neon PWA)
 
-Futuristic, epigenetics-themed incubation tracker. Installable PWA with offline support, live countdowns, .ics/CSV export, and Google Calendar links.
+Dr.Venkata Chelikani Lab: Epigenetic Incubation Tracker "Tracking time, unlocking the epigenetic code"
 
 ## Quickstart (GitHub Pages — user: dhavalpatelp1)
 
