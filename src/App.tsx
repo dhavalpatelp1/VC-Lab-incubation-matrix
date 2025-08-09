@@ -1,4 +1,3 @@
-\
 import React, { useEffect, useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Plus, CalendarPlus, Download, TimerReset, Edit3, Trash2, Copy, Bell, Sparkles, FlaskConical, Atom, Clock3, Thermometer, FileSpreadsheet, Bug, HardDriveDownload, WifiOff } from "lucide-react";
