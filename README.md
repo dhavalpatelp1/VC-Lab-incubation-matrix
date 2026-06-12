@@ -1,42 +1,62 @@
-# VC Lab — Incubation Matrix (Neon PWA)
+# EpiLab Incubation Matrix
 
-Dr.Venkata Chelikani Lab: Epigenetic Incubation Tracker "Tracking time, unlocking the epigenetic code"
+A browser-based incubation matrix for planning, monitoring, and documenting laboratory samples across multiple experimental conditions.
 
-## Quickstart (GitHub Pages — user: dhavalpatelp1)
+## Purpose
 
-1) Create a new **public** repository named **incubation-matrix** on GitHub under **dhavalpatelp1**.
-2) Upload the contents of this folder to that repo (drag-and-drop on GitHub → Commit).
-3) Wait 1–3 minutes for **Actions** to finish. Your site will be live at:
-   **https://dhavalpatelp1.github.io/incubation-matrix/**
+The project was created to make multi-sample incubation work easier to organise. It combines timing, sample metadata, status tracking, calendar export, and offline storage in a single lightweight application.
 
-> The workflow is already configured. No extra settings required.
+## Features
 
-## Local dev
+- Create and edit incubation records
+- Track scheduled, running, completed, and overdue samples
+- Record temperature, location, start/end time, and notes
+- Search and filter active experiments
+- Export schedules as ICS calendar files
+- Open prefilled Google Calendar events
+- Export sample records as CSV
+- Local browser storage
+- Offline-capable Progressive Web App
+- Responsive research-focused interface
+
+## Technology
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- LocalStorage
+- Progressive Web App service worker
+
+## Quick start
 
 ```bash
-npm i
+npm install
 npm run dev
 ```
 
-Open http://localhost:5173
+Open the local address shown by Vite, normally `http://localhost:5173`.
 
-## Build
+## Production build
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Files
+## GitHub Pages
 
-- `src/App.tsx` — main app
-- `public/manifest.webmanifest` — PWA manifest
-- `public/sw.js` — service worker (offline shell + runtime cache)
-- `.github/workflows/deploy.yml` — GitHub Pages deploy workflow
-- `tailwind.config.ts`, `postcss.config.js`, `src/index.css` — Tailwind setup
+A deployment workflow is included under `.github/workflows/`. GitHub Pages can be enabled from the repository settings after confirming the workflow and base path match the repository name.
 
-## Notes
+## Intended use
 
-- The workflow sets the correct Vite **base** automatically for Pages using the repo name.
-- Service workers require HTTPS; Pages provides that.
-- If you use a different repo name, the site URL will be `https://dhavalpatelp1.github.io/<that-repo-name>/`.
+This application is suited to small research groups and individual researchers who need a simple visual overview of incubation schedules without deploying a full laboratory information management system.
+
+## Research-use note
+
+The tool supports planning and record organisation but does not replace validated laboratory procedures, institutional record systems, or independent verification of experimental conditions.
+
+## Project role
+
+Conceptualised, specified, tested, and iteratively developed to improve laboratory scheduling and reproducibility.
